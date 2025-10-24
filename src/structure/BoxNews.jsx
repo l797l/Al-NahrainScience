@@ -1,4 +1,4 @@
-import "./../css/BoxNews.css";
+import "./../css/boxNews.css";
 
 export default function BoxNews({ imgNews, newsTitle, newsArticle }) {
   const today = new Date();
