@@ -1,4 +1,4 @@
-import imgCollege from "./d1.JPG";
+import imgCollege from "./d1.jpg";
 import imgChemistry  from "./image.png";
 import imgComputer from "./computer.jpg";
 import imgBiology from "./Bio.jpg";
