@@ -1,0 +1,43 @@
+
+.text-body{
+  display: flex;
+  flex-direction: row;
+  background-color: var(--main-color);
+  height: auto;
+  margin-top: -3px;
+  border-top: 5px solid var(--hover-color);
+  
+ 
+  
+}
+
+.text-body div {
+width: 50%;
+height: auto;
+
+}
+
+
+@media (max-width: 768px) {
+
+  
+.text-body{
+  flex-direction: column;
+  height: auto;
+  margin-top: 0;
+
+
+}
+
+.text-body div {
+width: 100%;  
+
+
+}
+
+.text-body div:first-child {
+  order: 2; 
+}
+
+}
+

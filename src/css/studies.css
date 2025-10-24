@@ -1,0 +1,46 @@
+.studies {
+  display: flex;
+  flex-direction: column;
+}
+
+.studies .box-titel {
+  display: flex;
+  direction: rtl;
+  background-color: var(--main-color);
+  font-size: 30px;
+  font-weight: bold;
+  flex-direction: column;
+  border-top: 2px solid var(--hover-color);
+  padding: 1%;
+}
+
+.studies .box-titel h3 {
+  margin: 0;
+  padding: 0 5px;
+  margin-bottom: 5px;
+  font-size: 26px;
+  margin-right: 20px;
+  margin-left: 5px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    color: var(--hover-color);
+}
+
+.studies .box-titel h1 {
+  margin: 0;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  padding: 0;
+  margin-bottom: 5px;
+  color: var(--second-color);
+  font-size: 46px;
+  margin-right: 20px;
+  margin-left: 5px;
+}
+.box-img {
+    direction: rtl;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}

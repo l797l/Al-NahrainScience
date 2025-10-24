@@ -1,0 +1,33 @@
+.box-news {
+  background: var(--main-color);
+  border-top: 3px solid var(--hover-color);
+  margin-top: -4px;
+
+}
+
+.head-news {
+  direction: rtl;
+  padding: 20px 55px;
+}
+
+.head-news h1 {
+  font-size: 35px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+
+  color: wheat;
+}
+.head-news h1 span {
+  color: var(  --hover-color);
+  border-bottom: 4px solid var(--second-color);
+}
+
+.set-boxNews {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+
+
+

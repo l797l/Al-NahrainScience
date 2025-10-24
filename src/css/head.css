@@ -1,0 +1,30 @@
+.head-top {
+  display: flex;
+  position: fixed;
+  background-color: var(--main-color);
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  height: 10px;
+  padding-right: 40px;
+  padding-bottom: 20px;
+  margin-bottom: 0;
+  margin-top: 0;
+
+  border-top: var(--hover-color) solid 1px;
+  padding-left: 40px;
+  justify-content: space-between;
+  z-index: 30;
+  transition: all 0.8s ease;
+}
+ul {
+  margin: 0;
+  margin-top: 3px;
+}
+
+@media (max-width: 1000px) {
+  .head-top {
+    transform: translateY(-50px);
+    opacity: 0;
+  }
+}

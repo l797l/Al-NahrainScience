@@ -1,0 +1,109 @@
+.college-departments {
+  display: flex;
+  flex-direction: row;
+  margin-top: 20px;
+  position: relative;
+}
+
+.college-departments .header-departments {
+  display: flex;
+  text-align: end;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: var(--main-color);
+  font-size: 30px;
+  font-weight: bold;
+  width: 22%;
+  flex-direction: column;
+  order: 2;
+  justify-content: start;
+  position: sticky;
+  top: 50px;
+  align-self: flex-start;
+  right: 10px;
+}
+
+.college-departments .header-departments h3 {
+  margin: 0;
+  padding: 0 5px;
+  margin-bottom: 5px;
+  font-size: 26px;
+  margin-right: 20px;
+  margin-left: 5px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.college-departments .header-departments h1 {
+  margin: 0;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  padding: 0;
+  margin-bottom: 5px;
+  color: black;
+  font-size: 46px;
+  margin-right: 20px;
+  margin-left: 5px;
+}
+
+.header-departments hr {
+  height: 0px;
+  border: 1px solid gray;
+  margin-left: 20px;
+  margin-top: 15px;
+  width: 95%;
+}
+
+.header-departments div {
+  padding: 2px 20px;
+}
+
+.header-departments div p {
+  font-size: 16px;
+  color: #273237;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.college-departments .box-departments-container {
+  display: flex;
+  gap: 50px;
+  margin-bottom: 20px;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 75%;
+  border-right: 2px solid gray;
+  padding: 0 15px;
+}
+
+@media (max-width: 1070px) {
+  .college-departments {
+    flex-direction: column;
+    position: static;
+    align-items: center;
+  }
+
+  .college-departments .header-departments {
+    position: static;
+    order: 2;
+    padding: 0 3px;
+    flex: content;
+    align-self: center;
+    min-width: 100%;
+  }
+
+  .college-departments .box-departments-container {
+    order: 2;
+    border: none;
+    padding: 0 3px;
+  }
+
+  .header-departments div {
+    padding: 2px 20px;
+    flex-direction: row;
+  }
+
+  .header-departments hr {
+
+  width: 95%;
+}
+}

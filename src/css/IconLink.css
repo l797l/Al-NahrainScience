@@ -1,0 +1,25 @@
+
+
+a {
+  text-decoration: none;
+  margin: 3px 20px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: 0.8s ease;
+  color: var(--second-color);
+  font-family: var(--font-family);
+  
+}
+
+a i {
+  display: inline-block;
+  transition: transform 0.8s ease;
+  
+}
+a:hover {
+  color: var(--hover-color);
+}
+
+i:hover {
+  transform: rotateY(360deg) !important;
+}

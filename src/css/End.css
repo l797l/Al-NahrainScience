@@ -1,0 +1,29 @@
+.end {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  background-color: var(--main-color);
+  direction: rtl;
+}
+
+.end .text-title {
+  display: flex;
+  flex-direction: column;
+  padding: 2% 7%;
+}
+
+.end .text-title h2 {
+  color: #fff;
+  font-size: 35px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  margin: 0;
+}
+
+.end .text-title p {
+  color: #fff;
+  font-size: 20px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  margin: 0;
+}
